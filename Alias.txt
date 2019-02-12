@@ -1,0 +1,3 @@
+alias checkvfio="dmesg | egrep -i  \"AMD|NVIDIA|vfio|nouveau\""
+alias biosgrubupdate="sudo grub2-mkconfig -o /boot/grub2/grub.cfg"
+alias ufiGrubUpdate="sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg"
